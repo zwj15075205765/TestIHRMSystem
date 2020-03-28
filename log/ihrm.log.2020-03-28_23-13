@@ -1,0 +1,4 @@
+2020-03-28 23:13:17,484 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-28 23:13:18,028 INFO [root] [test_emp2.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '82e1d5a6-18e8-418d-b964-83492df862b3'}
+2020-03-28 23:13:18,029 INFO [root] [test_emp2.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 82e1d5a6-18e8-418d-b964-83492df862b3'}
+2020-03-28 23:13:52,592 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------

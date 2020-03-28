@@ -1,0 +1,28 @@
+2020-03-28 16:30:24,969 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-28 16:30:25,985 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '68242701-933d-4821-bd60-d836f3ac2d1c'}
+2020-03-28 16:30:26,035 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,080 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,125 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,173 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,219 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,267 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,317 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1853f93a-3f08-4ac2-8110-17990fc95958'}
+2020-03-28 16:30:26,365 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,414 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,459 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:26,505 INFO [root] [test_login_params.py(test01_login:30)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:30:26,554 INFO [root] [test_emp2.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6f7600f0-f36b-40d5-b505-93f325f31ec8'}
+2020-03-28 16:30:26,555 INFO [root] [test_emp2.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 6f7600f0-f36b-40d5-b505-93f325f31ec8'}
+2020-03-28 16:30:26,612 INFO [root] [test_emp2.py(test02_add_emp:55)] - 添加员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:26,658 INFO [root] [test_emp2.py(test03_query_emp:71)] - 查询员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:26,706 INFO [root] [test_emp2.py(test04_modify_emp:81)] - 修改员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:27,123 INFO [root] [test_emp2.py(test04_modify_emp:100)] - 打印SQL语句：select username from bs_user where id=
+2020-03-28 16:30:27,273 INFO [root] [test_emp2.py(test05_delete_emp:123)] - 删除员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:40,387 INFO [root] [__init__.py(<module>:16)] - INFO Test --------------------------
+2020-03-28 16:30:40,783 INFO [root] [test_emp2.py(test01_login:41)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4bdcd5be-8ce0-4ace-b5a0-0c14d051c9e9'}
+2020-03-28 16:30:40,783 INFO [root] [test_emp2.py(test01_login:45)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 4bdcd5be-8ce0-4ace-b5a0-0c14d051c9e9'}
+2020-03-28 16:30:40,836 INFO [root] [test_emp2.py(test02_add_emp:55)] - 添加员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:40,918 INFO [root] [test_emp2.py(test03_query_emp:71)] - 查询员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:40,975 INFO [root] [test_emp2.py(test04_modify_emp:81)] - 修改员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:30:41,126 INFO [root] [test_emp2.py(test04_modify_emp:100)] - 打印SQL语句：select username from bs_user where id=
+2020-03-28 16:30:41,197 INFO [root] [test_emp2.py(test05_delete_emp:123)] - 删除员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
